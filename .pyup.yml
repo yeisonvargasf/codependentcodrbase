@@ -6,13 +6,12 @@ branch: mainline
 
 label_prs: pyup
 
+search: False
+
 assignees:
   - pzelnip
 
 requirements:
-  - requirements-float.txt:
-      update: False
-      pin: False
   - requirements.txt:
       update: all
       pin: True
