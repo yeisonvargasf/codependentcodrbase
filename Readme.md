@@ -21,3 +21,5 @@ Those packages almost never change, so I pulled that stuff out
 into the Dockerfile you find here in this repo.  I then use that
 built image as the base image for CDC builds, which speeds up
 my build times for that repo.
+
+Ignoring float requirements.
